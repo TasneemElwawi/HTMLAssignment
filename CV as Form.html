@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charest="utf-8"/>
+	<title>Form</title>
+</head>
+	<body>
+	    <form action="/action_page.php">
+  <fieldset>
+      
+    <legend><p><strong id="p1">Upload Your picture</strong> __Go To <a href="#p2">Personal Info</a>
+		       ,<a href="#p3">Education</a>
+		       ,<a href="#p4">Favorite Food dishes</a>
+		       ,<a href="#p5">Favorite News Sites</a></p>
+    </legend>
+    <label>Select a File: </label><button type="button">اختيار ملف</button>
+						<label>لم يتم اختيار اي ملف </label><br>
+  </fieldset>
+  <fieldset>
+    <legend><p><strong id="p2">Personal information:</strong> __Go To <a href="#p1">picture</a>
+		       ,<a href="#p3">Education</a>
+		       ,<a href="#p4">Favorite Food dishes</a>
+		       ,<a href="#p5">Favorite News Sites</a></p>
+    </legend>
+    Name:<input type="text" name="Name" placeholder="your name">
+    <br>
+    Family:<input type="text" name="Familyname" placeholder="your family name">
+    <br>
+    Birth day:<input type="date" name="Birthday">
+    <br>
+    Birth time:<input type="time" name="usr_time">
+    <br>
+    Birth date-time:<input type="datetime-local" name="bdaytime">
+   <fieldset>
+    <legend><strong>Contact:</strong>
+    </legend>
+    E-mail:<input type="email" name="email" placeholder="name@gmail.com">
+    <br>
+    phone:<input type="tel" name="phone" placeholder="(ddd)ddd-dddd">
+    <br>
+    Personal page:<input type="text" name="Personal page" placeholder="http://server.com">
+    
+  </fieldset>
+      </fieldset>
+  <fieldset>
+    <legend><p><strong id="p3">Education:</strong> __Go To <a href="#p1">picture</a>
+		       ,<a href="#p2">Personal information</a>
+		       ,<a href="#p4">Favorite Food dishes</a>
+		       ,<a href="#p5">Favorite News Sites</a></p>
+    </legend>
+    Your school Name:<input type="text" name="schoolName" placeholder="your school name">
+    <br>
+    Your school E-mail:<input type="email" name="email" placeholder="school@gmail.com">
+    <br>    
+    Your school page:<input type="text" name="schoolpage" placeholder="http://server.com">
+    <br>
+    Your degree at graduation:<input type="text" name="degree" placeholder="your degree">
+   </fieldset>
+   <fieldset>
+    <legend><p><strong id="p4">Favorite Food dishes:</strong> __Go To <a href="#p1">picture</a>
+		       ,<a href="#p2">Personal information</a>
+		       ,<a href="#p3">Education</a>
+		       ,<a href="#p5">Favorite News Sites</a></p>
+    </legend>
+    Your Favorite Food dishes Name:<input type="text" name="FavoriteFooddishes" placeholder="Your Favorite dishes name">
+    <br>
+    Your Favorite Food page:<input type="text" name="FavoriteFoodpage" placeholder="http://server.com">
+
+   </fieldset>
+   <fieldset>
+    <legend><p><strong id="p5">Favorite News Sites:</strong> __Go To <a href="#p1">picture</a>
+		       ,<a href="#p2">Personal information</a>
+		       ,<a href="#p3">Education</a>
+		       ,<a href="#p4">Favorite Food dishes</a></p>
+    </legend>
+    Your Favorite News Sites Name:<input type="text" name="FavoriteNewsSites" placeholder="Your Favorite News Sites">
+    <br>
+    Your Favorite News Sites page:<input type="text" name="FavoriteNewsSites" placeholder="http://server.com">
+
+   </fieldset>
+    <br>
+        <input type="submit" value="Submit">
+        <input type="reset">
+</form>
+	</body>
+</html>
